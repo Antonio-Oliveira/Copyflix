@@ -1,0 +1,23 @@
+@media screen and (max-width:700px){
+    header .nav-principal .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .filme-principal .botoes{
+        display: block;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 200px;
+    }
+
+
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
