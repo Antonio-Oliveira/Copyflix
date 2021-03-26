@@ -16,19 +16,26 @@ body{
     color: white;
 }
 
-.nav-principal .container{
+header{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%);
+    padding: 10px;
+}
+
+header .nav-principal .container{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
 }
 
 
+
 header .Logo{
-    margin-left: 5px;
+    margin-right: 20px;
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 header nav a{
@@ -41,13 +48,34 @@ header nav a:hover{
     color: #fff;
 }
 
-/* Filme principal Header */
-
-header{
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('/img/capa_tbbt.jpg');
+header .container .logo{
+    margin-right: 12px;
 }
 
-header .filme-principal{
+.nav-secundaria a img{
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    margin-right: 8px;
+}
+
+.nav-secundaria{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 15px;
+}
+
+
+header{
+    
+}
+
+/* Filme principal */
+
+.filme-principal{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('/img/capa_tbbt.jpg');
+    background-size: cover;
+    background-position: top center;
     font-size: 16px;
 
     height: 450px;
@@ -59,12 +87,12 @@ header .filme-principal{
     align-items: flex-start;
 }
 
-header .filme-principal .descricao{
+.filme-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
-header .filme-principal .titulo{
+.filme-principal .titulo{
     margin-top: 15%;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

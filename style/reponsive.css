@@ -4,16 +4,21 @@
         flex-direction: column;
     }
 
-    header .filme-principal .botoes{
-        display: block;
+    .nav-secundaria{
+        margin-top: 10px;
+    }
+    
+    .nav-secundaria{
+        margin-right: 0;
     }
 
+
     .botao{
-        margin-top: 5px;
+        margin-top: 10px;
         width: 200px;
     }
 
-
+   
 }
 
 @media screen and (min-width:1000px){
