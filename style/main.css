@@ -17,7 +17,6 @@ body{
 }
 
 header{
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%);
     padding: 10px;
 }
 
@@ -72,10 +71,10 @@ header .container .logo{
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('/img/capa_tbbt.jpg');
     background-size: cover;
     background-position: top center;
-    font-size: 16px;
-
-    height: 450px;
     background-size: cover;
+
+    font-size: 16px;
+    height: 450px;
 
     display: flex;
     flex-direction: column;
@@ -147,6 +146,6 @@ header .container .logo{
 
 /* rodapé */
 footer{
-    margin: 20px 0;
+    margin: 30px 0 20px 0;
     text-align: center;
  }
